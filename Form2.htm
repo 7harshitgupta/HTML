@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Button</title>
+</head>
+<body>
+  <form>
+    <label for="male">Male</label>
+    <!---type=radio is for select a value only once in a same time-->
+    <input type="radio" name="gender" id="male" value="Male"><br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="Female"><br>
+    <label for="trans">Custom</label>
+    <input type="radio" name="gender" id="trans" value="Custom">
+
+  </form>
+  <hr><br>
+  <form >
+    <label for="cities">Agra</label>
+    <!---type = checkbox is used for check the boxes like multiple choosing options in a same time-->
+    <input type="checkbox" name="city" id="cities" value="Agra"><br>
+    <label for="nd">New Delhi</label>
+    <input type="checkbox" name="city" id="nd" value="New Delhi"><br>
+    <label for="mb">Mumbai</label>
+    <input type="checkbox" name="city" id="mb" value="Mumbai"><br>
+    <label for="abd">Ahmedabad</label>
+    <input type="checkbox" name="city" id="abd" value="Ahmedabad">
+  </form>
+  <hr><br>
+  <form>
+    <label for="states">Choose Your State: </label>
+    <!---type = select is used for select any option that is given in the list., in the select tag we are using Option tag for choose a option by the list-->
+    <select name="States" id="states">
+      <option value="delhi">Delhi</option>
+      <option value="haryana">Haryana</option>
+      <option value="gujrat">Gujrat</option>
+      <option value="uttarkhand">Uttarkhand</option>
+      <option value="uttar pradesh">Uttar Pradesh</option>
+    </select>
+
+
+  </form> <hr><br>
+  <textarea name="text" rows="4" cols="50">Text Here!</textarea>
+  <!---textarea tag is used for multi-line text inputs in forms-->
+  <!--rows propertry specifies the visible number of lines in the textarea-->
+  <!--cols propertry sets the visible width measured in average character width -->
+  <!--NOTE- Some browsers allow user to manually resize the textarea -->
+  <iframe src="https://en.wikipedia.org/wiki/Agra#History" width="500" height="500"></iframe>
+  <!---iframe tag allows you to embed another webpage or multimedia content within a page-->
+  <!--src attribute specifes the URL of the content to be embedded and the dimension width and height can be set using width and height of the cotent on the page-->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=VTWXfjaeb0Im8Qcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

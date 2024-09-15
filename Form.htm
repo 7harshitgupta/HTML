@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/harshit.php"><!---action is an attribute and used for taking URL for the form-->
+      
+
+      <!--lable tag is used for adds a text description to form elements, in this tag there is a attribute, namely "for" this attribute is used for connects the lable to a specific form element using the element's id.-->
+      <label for="name">UserName:</label>
+
+
+      <!--Here we're using input tag, This tag is used for taking the input from the user, it is a self closing tag
+    it doesn't require a closing tag, there are some common attributes that are name, value, type, placeholder,
+    and required-->
+      <input type="text" id="name" placeholder="Enter Your Username" required><br>
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" placeholder="Enter Your Password" required><br>
+      <input type="submit"><br>
+      <label for="dte">Date:</label>
+      <input type="date" id="dte"> <br>
+      file: <input type="file"><br>
+      color: <input type="color"><br>
+      Price Range <input type="range"><br>
+      Submit: <input type="button" value="Submit"><br>
+      
+    </form>
+  </body>
+</html>
